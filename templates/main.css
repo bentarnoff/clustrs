@@ -1,0 +1,36 @@
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+background: #D8EFFA;
+  color: #0096e1;
+  font-size: 20px;
+}
+
+body h1{
+	color: #FF6E00;
+}
+
+a, a:active, a:visited, a:focus {
+	color: #FF0000;
+}
+
+h2 {
+	font-size: 25px;
+	color: #FF0000;
+	display: inline;
+}
+
+.wrapper {
+	margin-top: 25px;
+}
+
+.letter {
+	margin-top: 25px;
+}
+
+.btn-default {
+
+	background: #D8EFFA;
+	color: #FF0000;
+	font-size: 20px;
+	border: 0px
+}

@@ -1,0 +1,257 @@
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+background: #D8EFFA;
+  color: #0096e1;
+  font-size: 20px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.hed a:link, a:visited, a:focus, a:active {
+color: #FF6E00;
+text-decoration: none;
+}
+
+.hed a:hover {
+	color: #FF6E00;
+	border-bottom: 1px #FF6E00 dashed;
+}
+
+.nav h2 {
+	font-size: 25px;
+	color: #FF0000;
+	display: inline;
+}
+
+.nav a {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #FF0000;
+	text-decoration: none;
+	border-bottom: 1px #FF0000 dashed;
+}
+
+
+
+hr {
+color: #f00;
+background-color: #000000;
+height: 5px;
+width: 100%;
+}
+
+ul li{
+list-style: decimal;
+padding-bottom: 15px;
+color: #000000;
+font-size: 14px;
+}
+
+.entry{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.exp ul li{
+list-style: disc;
+color: #000000;
+padding: 0px;
+}
+
+img {
+	width: 100%;
+}
+
+iframe {
+	background: none transparent;
+}
+
+.wrapper {
+	margin-top: 25px;
+}
+
+.content-box {
+	margin-top: 10px;
+}
+
+.content-box a:hover{
+	text-decoration: none;
+}
+
+.subhed {
+	margin-top: 30px;
+}
+
+.entries {
+	font-size: 12px;
+}
+
+.entries blockquote{
+	font-size: 14px;
+	font-style: italic;
+	border-left: #000000 3px solid;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+.text-hed a{
+	color: #228B22;
+}
+
+.text-hed a:hover{
+	border-bottom: 1px #00cc00 dashed;
+}
+
+.video-hed a{
+	color: #663399;
+}
+
+.video-hed a:hover{
+	border-bottom: 1px #663399 dashed;
+}
+
+.meta {
+	color: grey;
+}
+
+.meta a{
+	color: #000000;
+	font-weight: bold;
+}
+
+.meta a:hover {
+	border-bottom: 1px #000000 dashed;
+}
+
+.description {
+	color:#0096e1
+}
+
+.js {
+	display: none;
+}
+
+.audio {
+	background: transparent;
+	width: 100%;
+}
+
+.excerpt {
+	cursor: pointer;
+	color: #000000;
+}
+
+
+.title {
+	display: inline;
+	cursor: pointer;
+}
+
+.btn-ghost{
+	background: transparent;
+	color: red;
+	border: 1px solid red;
+	font-size: 15px;
+}
+
+.btn-ghost:hover{
+	background: #0096e1;
+	color: #FFFFFF;
+	border: #0096e1;
+}
+}
+
+.letter a:visited, a:focus, a:active {
+	color: #FF0000;
+}
+
+.letter a:hover{
+	background: #0096e1;
+	color: #FFFFFF;
+	border: #0096e1;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #0096e1;
+	display: inline-block;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid #0096e1;
+	display: inline-block;
+}
+
+.exp {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	color: #000000;
+}
+
+.exp a:visited, a:focus, a:active {
+	color: #FF0000;
+}
+
+.exp a:hover{
+	background: #0096e1;
+	color: #FFFFFF;
+	border: #0096e1;
+}
+
+.nugget {
+	padding: 20px;
+}
+
+.clustr_title{
+	padding: 30px;
+}
+
+#what_wrapper{
+  margin:-250px 0 0 -350px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+#what_box{
+	margin-top: 30px;
+}
+
+.clustrs_list{
+	font-weight:bold;
+}
+
+.clustrs_list .btn{
+	font-size: 12px;
+}
+
+.asteriskField {
+    display: none;
+}
+
+.linkbutton{
+     background: none;
+     border: none;
+     color: #000000;
+     font-weight: bold;
+     text-decoration: none;
+     cursor: pointer;
+     display: inline;
+}
+
+.linkbutton:hover {
+	border-bottom: 1px #000000 dashed;
+}

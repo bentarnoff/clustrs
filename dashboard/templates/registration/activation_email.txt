@@ -1,0 +1,10 @@
+Hey,
+
+Thanks for signing up for Clustrs. Click on the link below to activate your account.
+
+Have fun, and don't hesitate to holler at hello@clustrs.com if things get weird.
+
+Love,
+&clustr
+
+http://www.clustrs.com/dashboard/activate/{{activation_key}}/

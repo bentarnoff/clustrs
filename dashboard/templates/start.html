@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="wrapper">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 hed">
+<h1><a href="/start/">clustrs</a></h1>
+</div>
+</div>
+<div class="row nav">
+<div class="col-xs-4">
+<h2><a href="/how/">show me how this works</a></h2>
+</div>
+<div class="col-xs-4">
+<h2><a href="/dashboard/register/" id="register">login / sign up</a></h2>
+</div>
+<div class="col-xs-4">
+<h2><a href="#">contact us</a></h2>
+</div>
+</div>
+<div class="row content-box">
+{% for i in clustrs %}
+<div class="col-xs-4 clustr_title">
+<a href="/{{i}}" style="color: #0096e1" class="title"><b>{{i}}</b> <div class="triangle-up"></div><div class="triangle-down"></div></a>
+<hr class="line"/>
+</div>
+{% endfor %}
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="{% static "js/peekaboo.js" %}" type="text/javascript"></script>
+{% endblock %}

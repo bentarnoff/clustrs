@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="wrapper">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<h1><a href="/">clustrs</a></h1>
+</div>
+</div>
+<div class="row nav">
+<div class="col-xs-4">
+<h2><a href="/what/">&nbsp;</a></h2>
+</div>
+<div class="col-xs-4">
+<h2 style="color:#000000">&nbsp;</h2>
+</div>
+<div class="col-xs-4">
+<h2><a href="#">&nbsp;</a></h2>
+</div>
+</div>
+<div class="row content-box">
+<div class="col-xs-4">
+<div id="title">
+<b>&punkrock</b> <div class="triangle-up"></div><div class="triangle-down"></div>
+</div>
+<hr class="line"/>
+<div class="entries">
+<ul>
+<li>
+<span class="video-hed">
+<a href="https://www.youtube.com/watch?v=uWhkbDMISl8" target="_blank">"Hanging On the Telephone," Blondie, 1978.<br/></a>
+</span>
+<blockquote class="excerpt">
+<img src="{% static "images/entries/blondie.jpg" %}" alt="Blondie"/>
+</blockquote>
+<div class="more">
+<span class="description">
+<b>"death to videodrome! long live the new flesh!"</b><br/></span>
+<span class="meta">
+[2 mins]
+[contributor: <a href="#">/maximumrocknroll</a>]<br/>[<a href="#">12 votes</a>]
+[<a href="#">add to queue</a>][<a href="#">upvote</a>]
+<br/>
+</span>
+</div>
+</li>
+</div>
+</div>
+<div class="col-xs-4">
+<div class="exp" id="title-exp">
+a<span style="color:#0096e1"> clustr</span> can be anything: a topic, a person, or an idea. here, it's <span style="color:#0096e1">&punkrock</span>.<br/><br/>
+<p style="text-align:right"><a class="btn btn-ghost" id="ok1">okay</a></p>
+</div>
+<div class="exp" id="title-exp2">
+click on <span style="color:#0096e1">&punkrock</span> to open it up.
+</div>
+<div class="exp" id="hed-exp">
+clustrs are full of <span style="color:#0096e1">nuggets</span>.
+a nugget can be any linkable media. if it's text, it's <span style="color:#228B22">green</span>. if it's visual, it's <span style="color:#663399">purple</span>.<br/><br/> 
+<p style="text-align:right"><a class="btn btn-ghost" id="ok2">got it</a></p>
+</div>
+<div class="exp" id="hed-exp2">
+right now we're looking at the top-voted nugget in the <span style="color:#0096e1">&punkrock</span> clustr: a Blondie music video.<br/><br/> 
+<p style="text-align:right"><a class="btn btn-ghost" id="ok3">i love Blondie</a></p>
+</div>
+<div class="exp" id="excerpt-exp">
+each nugget is represented by a <span style="color:#0096e1">thumbnail</span>. 
+</div>
+<div class="exp" id="excerpt-exp2">
+the thumbnail is any small piece of the source: an image, a few sentences, whatever.
+</div>
+<div class="exp" id="excerpt-exp3"> 
+here, it's a picture of Debbie Harry from the video.
+</div>
+<div class="exp" id="excerpt-exp4">
+click on Debbie to see more.
+</div>
+<div class="exp" id="more-exp">
+the nugget's expanded view gives you a little more: a <span style="color:#0096e1">comment</span> from the <span style="color:#0096e1">contributor</span>, the <span style="color:#0096e1">consumption time</span>, and the <span style="color:#0096e1">number of votes</span>.
+</div>
+<div class="exp" id="more-exp2">
+it also gives you the option to add the nugget to your <span style="color:#0096e1">queue</span>, or <span style="color:#0096e1">upvote</span> it. the more votes, the higher the nugget goes on the clustr.
+</div>
+<div class="exp" id="choices">
+<ul>
+<li>
+okay,<a href="#" id="choice1"> this makes sense.</a>
+</li>
+<li>
+no, <a href="#" id="choice2">i'm confused.</a>
+</li>
+</ul>
+</div>
+<div class="exp" id="yes">
+great! <a href="/login/">sign up</a> to get started.
+</div>
+<div class="exp" id="no">
+Sorry. Talk to us at <a href="mailto:help@clustrs.com">help@clustrs.com</a> and we'll try to do a better job.
+</div>
+</div>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static "js/how.js" %}" type="text/javascript"></script>
+{% endblock %}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+{% block html %}<html lang="en" class="js">{% endblock %}
+  <head>
+    <meta charset="utf-8">
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="clustrs - purify your content intake">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% block title %}<title>clustrs</title>{% endblock %}
+	<link rel="canonical" href="http://www.clustrs.com" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}" />
+	<link rel="shortcut icon" type="image/png" href="{% static "images/favicon.ico" %}"/>
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>

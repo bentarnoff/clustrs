@@ -1,0 +1,4 @@
+*.pyc
+.cfignore
+.profile.d
+contributors.txt

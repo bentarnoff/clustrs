@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="wrapper" id="what_wrapper">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<h1><a href="/">clustrs</a></h1>
+</div>
+</div>
+<div class="row nav">
+<div class="col-xs-12">
+<h2 style="color:#FF0000">bad content is bad for you</h2>
+</div>
+
+</div>
+<div class="row content-box" id="what_box">
+<div class="col-xs-4">
+<p>Content is like food. It doesn't just go in one end and out the other—it leaves a trace.<br/><b>It changes us.</b></p>
+<p>The Internet is overwhelming. It's an all-you-can-eat buffet of content: some of it good, a lot of it bad.
+</div>
+<div class="col-xs-4 letter">
+	<p>Good content enriches our lives. Bad content makes us stressed, confused, or just plain stupider.</p> 
+	<p><span style="color:#FF6E00"><b>Clustrs</span></b> is an experiment in purifying our content intake. It's an attempt to make the Internet a healthier place for our brains.</p>
+	<br/>
+	<p style="text-align: right"><a href="/start/" class="btn btn-ghost">I'm interested &#8594;</a></p>
+</div>
+<div class="col-xs-4">
+
+</div>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static "js/peekaboo.js" %}" type="text/javascript"></script>
+{% endblock %}
